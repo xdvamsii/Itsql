@@ -1,0 +1,28 @@
+(1) Aim : to draw the ER diagram for college management system
+
+Description: the ER diagram represent the model of college management system. The entity relationship diagram of college management system shows the visual instrument of data above tables and the relation between student,teacher, department,exam cell ... Etc .. It used structured data and to define the relationship between structured data groups of college management system functionalities. The main entities of college management system are :
+1. College
+2. Exam cell
+3. Department
+4. Admission
+5. Teacher
+6. Student
+ 
+Teacher entity :
+        Attributes of teacher are teacher_id,teacher_name,teacher_phno,teacher_mail, teacher _department, teacher _salary..
+
+Student Entity :
+       Attributes of student are student_id, student_name, student_group, student_phno, student_email, student_fees
+
+Exam cell :
+       Attributes of exam cell are exam_no,exam_name,exam_fees,exam_timetable,exam_result..
+
+Admission Entity:
+        Attributes of admission are admission_id, admission_date, addmission_fees, admission_type, admission_number..
+
+Description of college management system database. :
+
+*  The detail of college is into the college table respective with all tables.
+*  each entity contains primary key and unique key.
+*  there is one to one and one to many relationships available.
+*  we have implemented indexing on each table of college management system table for fast query execution.
